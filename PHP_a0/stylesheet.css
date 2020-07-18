@@ -1,0 +1,61 @@
+#tbox{
+    width: 50%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    transition: 0.2s;
+    border-radius: 10px;
+    outline: none;
+    margin:10px
+}
+#sb{
+    border-radius:10px; margin:20px 0px 20px 30px; padding:6px;width:200px;background-color:greenyellow;font-size:16px;
+}
+#sb:hover{
+    background-color: #003000;
+    color:gold;
+}
+#lb{
+    border-radius:10px;
+    margin:20px 0px 20px 30px;
+    padding:6px;
+    width:200px;
+    background-color:deepskyblue;
+    font-size:16px;
+}
+#lb:hover{
+    background-color: darkcyan;
+    color:white;
+}
+#tbox:hover {
+    border: 1px solid #19d5ff;
+}
+#lbl{
+    color:black; font-size:18px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#bt{
+    margin: 0 0 10px 40px;
+    background-color: transparent;
+    color:grey;
+    text-align: center;
+    border:none;
+}
+#lnk{
+    color: grey;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#lnk:hover{
+    color: blue;
+}
+#bg-image{
+    background-image: url('https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/12/baby-yoda-lucasfilm-1068x711.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,.7);
+    background-blend-mode: lighten;
+    position: center;
+    height: 100%;
+    width: 100%;
+}
