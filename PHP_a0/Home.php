@@ -1,6 +1,9 @@
 <?php
     session_start();
 
+     if(isset($_SESSION['user'])==false) {
+        header("location:InitialPage.php");
+    }
     if(isset($_POST['Logout'])) {
         if(session_destroy())
             header("Location: InitialPage.php");
